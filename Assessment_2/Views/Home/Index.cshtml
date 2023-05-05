@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container w-75 text-center my-lg-2">
+    <header>
+        <h3 class="fw-bold text-start">List of people</h3>
+    </header>
+
+    <div>
+        @(
+            Html.DevExtreme().DataGrid<Assessment_2.Models.Person>()
+            .ID("people-grid")
+            .DataSource(d => d
+                .Mvc().Controller("PersonWebAPI")
+                .Key("Id")
+                .LoadAction("Get")
+            )
+            .ShowBorders(true)
+            .Paging(_ => _.PageSize(10))
+            .HoverStateEnabled(true)
+            .Editing(_ =>
+            {
+                _.Mode(GridEditMode.Form);
+                _.RefreshMode(GridEditRefreshMode.Reshape);
+                _.AllowUpdating(false);
+                _.AllowAdding(false);
+                _.AllowDeleting(false);
+            })
+            .Columns(_ =>
+            {
+                _.AddFor(_ => _.Id)
+                .Width("40");
+
+                _.AddFor(_ => _.Name)
+                .Width("255");
+
+                _.AddFor(_ => _.Age)
+                .Width("100");
+            })
+            )
+    </div>
+</div>
