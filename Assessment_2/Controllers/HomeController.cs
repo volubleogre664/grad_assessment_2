@@ -18,8 +18,6 @@
 
         public IActionResult Index()
         {
-            this.ViewBag.Data = MockData.GetPeople();
-
             return View();
         }
 
