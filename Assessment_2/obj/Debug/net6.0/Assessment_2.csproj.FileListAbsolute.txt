@@ -34,3 +34,6 @@ C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\obj\Debug\net6.0\refint
 C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\obj\Debug\net6.0\Assessment_2.pdb
 C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\obj\Debug\net6.0\Assessment_2.genruntimeconfig.cache
 C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\obj\Debug\net6.0\ref\Assessment_2.dll
+C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\bin\Debug\net6.0\Client\package-lock.json
+C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\bin\Debug\net6.0\Client\package.json
+C:\Users\nduduzos\source\repos\Assessment_2\Assessment_2\bin\Debug\net6.0\Client\tsconfig.json

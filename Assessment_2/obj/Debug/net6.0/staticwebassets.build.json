@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SRc6yhSYO3qnzfQP9aXsMd8AMP/4ZrZoTE7SdRAxyF0=",
+  "Hash": "z9Fig/gFcU0/4UvnXsbly/3kQDWFU4Vdkqr7bpFZZfQ=",
   "Source": "Assessment_2",
   "BasePath": "_content/Assessment_2",
   "Mode": "Default",
@@ -3432,6 +3432,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\nduduzos\\source\\repos\\Assessment_2\\Assessment_2\\wwwroot\\pages\\home-page.js",
+      "SourceId": "Assessment_2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nduduzos\\source\\repos\\Assessment_2\\Assessment_2\\wwwroot\\",
+      "BasePath": "_content/Assessment_2",
+      "RelativePath": "pages/home-page.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pages\\home-page.js"
     }
   ]
 }

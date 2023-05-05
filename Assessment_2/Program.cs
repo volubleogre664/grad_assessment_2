@@ -30,6 +30,10 @@ namespace Assessment_2
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.MapControllerRoute(
+                name: "People",
+                pattern: "{controller=PersonWebAPI}/{action=Get}/");
+
             app.Run();
         }
     }

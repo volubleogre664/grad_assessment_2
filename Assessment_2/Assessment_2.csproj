@@ -8,4 +8,8 @@
     <PackageReference Include="DevExtreme.AspNet.Core" Version="22.2.6" />
     <PackageReference Include="DevExtreme.AspNet.Data" Version="2.9.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Client\src\components\" />
+    <Folder Include="WebApiControllers\" />
+  </ItemGroup>
 </Project>

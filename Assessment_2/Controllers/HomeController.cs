@@ -1,9 +1,12 @@
-﻿using Assessment_2.Models;
-using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace Assessment_2.Controllers
+﻿namespace Assessment_2.Controllers
 {
+    using Assessment_2.Data;
+    using Assessment_2.Models;
+
+    using Microsoft.AspNetCore.Mvc;
+
+    using System.Diagnostics;
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,6 +18,8 @@ namespace Assessment_2.Controllers
 
         public IActionResult Index()
         {
+            this.ViewBag.Data = MockData.GetPeople();
+
             return View();
         }
 

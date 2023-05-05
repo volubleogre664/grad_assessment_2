@@ -801,6 +801,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\nduduzos\\source\\repos\\Assessment_2\\Assessment_2\\wwwroot\\pages\\home-page.js",
+      "PackagePath": "staticwebassets\\pages\\home-page.js"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Assessment_2.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

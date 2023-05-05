@@ -1,4 +1,4 @@
-﻿namespace Assessment_2.WebApiControllers
+﻿namespace Assessment_2.Controllers
 {
     using Assessment_2.Data;
 
